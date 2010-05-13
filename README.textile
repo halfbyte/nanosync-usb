@@ -1,0 +1,17 @@
+h1. V-USB MIDI Nanoloop sync
+
+This is an open source hardware project to allow for easy syncing of your Nanoloop instances to a MIDI workstation or similar softwares on your desktop. In Contrast to a few other projects, it currently doesn't provide a hardware MIDI interface but instead works as a class device MIDI interface over USB, which means that it works without installing any drivers on modern operating systems, such as OS X.
+
+h2. Status
+
+Both the hardware AND the software are currently under active development. Feel free to experiment with the given schematics and the firmware, but please note that I am not in any way responsible for any damage resulting from using this.
+
+That being said: The software/hardware currently manages to sync Nanoloop 2.3 on my Gameboy Micro. It has obvious hardware issues with my original GBA with strange bleeps and blerps inserted into the sound while the sync cable is connected. So, do yourself a favor and ignore the ready looking brd file in the circuit folder :)
+
+h2. Reading the schematics
+
+Connecting the USB port should be pretty self explanatory. The GBA connector is a placeholder for something more fitting, but pins 1-6 are assigned as specified by the "holy GBAtek docs":http://nocash.emubase.de/gbatek.htm#auxlinkport
+
+h2. License
+
+Not decided on. 
